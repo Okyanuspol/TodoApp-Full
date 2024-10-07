@@ -1,0 +1,117 @@
+body {
+    background-image: url("./flat-lay-notebook-with-list-desk_23-2148938724.avif"); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 40px;
+    /* background-color: #28a745; */
+}
+.app-container {
+    max-width: 600px; 
+    margin: 150px auto; 
+    padding: 2rem; 
+    background-color: rgba(20, 26, 19, 0.7); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+  }
+  
+  h1 {
+    font-size: 60px; 
+    margin-bottom: 2rem; 
+    color: #03b11a;
+  }
+  
+ 
+  form {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 1rem; 
+  }
+  
+  input[type="text"] {
+    width: 70%; 
+    padding: 0.5rem; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    font-size: 1rem; 
+  }
+  
+  button[type="submit"] {
+    width: 25%;
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    padding: 0.5rem; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  li {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 1rem; 
+    margin-bottom: 0.5rem; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  li.completed {
+    background-color: #d4edda; 
+    text-decoration: line-through; 
+  }
+  
+  li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  li div {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  button {
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    padding: 0.5rem; 
+    font-size: 1rem; 
+    color: #333; 
+    transition: color 0.3s ease; 
+  }
+  
+
+  button:hover {
+    color: #007bff;
+  }
+  
+  button .fa-check {
+    color: #28a745;
+  }
+  
+  button .fa-rotate-left {
+    color: #dc3545;
+  }
+  
+  button .fa-trash {
+    color: #dc3545;
+  }
+  
+  button.delete:hover .fa-trash {
+    color: #ff0000;
+  }
+  
